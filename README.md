@@ -16,3 +16,17 @@ feature extraction. This is not the most usual way to use convnets, but can be a
 2. Method2: train a full deep learning model 
     -  Trained a convolutional network with Tensorflow / Keras, such as Mobilenet, MobilenetV2 and InceptionV3.
     - To improve the performance, I also used data augmentation and other network architecture, such as EfficientNet.
+
+### Part of experiment results
+    1. Mobilenet (batch_size = 20, epochs = 12, verbose = 1)
+        Test loss: 0.9162240598392606
+        Test accuracy: 0.74077374
+
+    2.	MobilnetV2 (same parameters with Mobilenet)
+        Test loss: 0.6685551222494142
+        Test accuracy: 0.8099483
+
+    3.	InceptionV3 (same parameters with Mobilenet)
+        Test loss: 0.506362418117615
+        Test accuracy: 0.8550544
+
